@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulk Orders & Custom Design - PrintCraft Tees</title>
+    <meta name="description" content="Get custom quotes for bulk orders and personalized designs. Perfect for events, teams, and businesses.">
+    
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/bulk-custom.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <!-- Logo -->
+                <a href="index.html" class="nav__logo" aria-label="PrintCraft Tees Home">
+                    <h1 class="nav__logo-text">PrintCraft Tees</h1>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="index.html" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item nav__item--has-mega" role="none">
+                        <button class="nav__link nav__link--dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                            Collections
+                            <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <!-- Mega Menu -->
+                        <div class="nav__mega-menu" role="menu" aria-label="Collections submenu">
+                            <div class="nav__mega-content">
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Men's Collection</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="tees.html" class="nav__mega-link">Tees</a></li>
+                                        <li><a href="hoodies.html" class="nav__mega-link">Hoodies</a></li>
+                                        <li><a href="sweatshirts.html" class="nav__mega-link">Sweatshirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Accessories</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="accessories.html" class="nav__mega-link">Caps</a></li>
+                                        <li><a href="accessories.html" class="nav__mega-link">Tote Bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="bulk-custom.html" class="nav__link nav__link--active" role="menuitem">Bulk & Custom</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="about.html" class="nav__link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav__toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <!-- Page Header -->
+        <section class="page-header reveal" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="page-header__title">Bulk Orders & Custom Design</h1>
+                <p class="page-header__subtitle">Perfect for events, teams, and businesses. Get wholesale prices on custom designs.</p>
+            </div>
+        </section>
+
+        <!-- Services Overview Section -->
+        <section class="services reveal" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Our Services</h2>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L29.09 17.26L43.14 17.26L31.57 26.48L36.66 39.74L24 30.52L11.34 39.74L16.43 26.48L4.86 17.26L18.91 17.26L24 4Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Bulk Orders</h3>
+                        <p class="service-card__description">Wholesale pricing for orders of 50+ pieces. Perfect for corporate events, team uniforms, and promotional campaigns.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4C12.95 4 4 12.95 4 24C4 35.05 12.95 44 24 44C35.05 44 44 35.05 44 24C44 12.95 35.05 4 24 4ZM24 40C15.18 40 8 32.82 8 24C8 15.18 15.18 8 24 8C32.82 8 40 15.18 40 24C40 32.82 32.82 40 24 40Z" fill="currentColor"/>
+                                <path d="M24 12C17.37 12 12 17.37 12 24C12 30.63 17.37 36 24 36C30.63 36 36 30.63 36 24C36 17.37 30.63 12 24 12Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Custom Design</h3>
+                        <p class="service-card__description">Our design team works with you to create unique artwork that perfectly represents your brand or event.</p>
+                    </article>
+                    
+                    <article class="service-card">
+                        <div class="service-card__icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L28.24 16.76H42.48L30.12 25.48L34.36 38.24L24 29.52L13.64 38.24L17.88 25.48L5.52 16.76H19.76L24 4Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Fast Turnaround</h3>
+                        <p class="service-card__description">Quick production times with rush options available. Most bulk orders completed within 7-10 business days.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Form Section -->
+        <section class="quote-form reveal" aria-labelledby="quote-title">
+            <div class="container">
+                <div class="quote-form__content">
+                    <div class="quote-form__info">
+                        <h2 id="quote-title" class="quote-form__title">Get Your Custom Quote</h2>
+                        <p class="quote-form__description">
+                            Tell us about your project and we'll provide a detailed quote within 24 hours. 
+                            Include as much detail as possible for the most accurate pricing.
+                        </p>
+                        
+                        <!-- Benefits List -->
+                        <div class="benefits">
+                            <h3 class="benefits__title">Why Choose Our Bulk Service?</h3>
+                            <ul class="benefits__list">
+                                <li>Wholesale pricing for orders 50+ pieces</li>
+                                <li>Free design consultation and mockups</li>
+                                <li>Multiple fabric and style options</li>
+                                <li>Quality guarantee and satisfaction promise</li>
+                                <li>Flexible payment terms for large orders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Quote Form -->
+                    <form class="form form--quote" id="quoteForm" novalidate>
+                        <div class="form__group">
+                            <label for="quoteName" class="form__label">Full Name *</label>
+                            <input type="text" id="quoteName" name="name" class="form__input" required>
+                            <div class="form__error" id="quoteNameError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="quoteEmail" class="form__label">Email Address *</label>
+                            <input type="email" id="quoteEmail" name="email" class="form__input" required>
+                            <div class="form__error" id="quoteEmailError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="quotePhone" class="form__label">Phone Number</label>
+                            <input type="tel" id="quotePhone" name="phone" class="form__input">
+                            <div class="form__error" id="quotePhoneError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="orderType" class="form__label">Order Type *</label>
+                            <select id="orderType" name="orderType" class="form__select" required>
+                                <option value="">Select order type</option>
+                                <option value="corporate">Corporate/Team Uniforms</option>
+                                <option value="event">Event/Conference</option>
+                                <option value="promotional">Promotional Campaign</option>
+                                <option value="retail">Retail/Wholesale</option>
+                                <option value="personal">Personal/Custom</option>
+                            </select>
+                            <div class="form__error" id="orderTypeError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="quantity" class="form__label">Estimated Quantity *</label>
+                            <select id="quantity" name="quantity" class="form__select" required>
+                                <option value="">Select quantity range</option>
+                                <option value="50-100">50-100 pieces</option>
+                                <option value="100-250">100-250 pieces</option>
+                                <option value="250-500">250-500 pieces</option>
+                                <option value="500-1000">500-1000 pieces</option>
+                                <option value="1000+">1000+ pieces</option>
+                            </select>
+                            <div class="form__error" id="quantityError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="productType" class="form__label">Product Type *</label>
+                            <select id="productType" name="productType" class="form__select" required>
+                                <option value="">Select product type</option>
+                                <option value="tees">T-shirts</option>
+                                <option value="hoodies">Hoodies</option>
+                                <option value="sweatshirts">Sweatshirts</option>
+                                <option value="accessories">Accessories</option>
+                                <option value="mixed">Mixed Products</option>
+                            </select>
+                            <div class="form__error" id="productTypeError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="deadline" class="form__label">Required Deadline</label>
+                            <input type="date" id="deadline" name="deadline" class="form__input">
+                            <div class="form__error" id="deadlineError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="designNotes" class="form__label">Design Requirements</label>
+                            <textarea id="designNotes" name="designNotes" rows="4" class="form__textarea" 
+                                      placeholder="Describe your design ideas, colors, style preferences, etc."></textarea>
+                            <div class="form__error" id="designNotesError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="additionalInfo" class="form__label">Additional Information</label>
+                            <textarea id="additionalInfo" name="additionalInfo" rows="3" class="form__textarea" 
+                                      placeholder="Any other details about your project..."></textarea>
+                            <div class="form__error" id="additionalInfoError"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary form__submit">Get Quote</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process reveal" aria-labelledby="process-title">
+            <div class="container">
+                <h2 id="process-title" class="section-title">Our Process</h2>
+                <div class="process__steps">
+                    <div class="process__step">
+                        <div class="process__number">1</div>
+                        <h3 class="process__title">Consultation</h3>
+                        <p class="process__description">We discuss your requirements, budget, and timeline to understand your project needs.</p>
+                    </div>
+                    
+                    <div class="process__step">
+                        <div class="process__number">2</div>
+                        <h3 class="process__title">Design & Mockup</h3>
+                        <p class="process__description">Our design team creates mockups and samples for your approval before production.</p>
+                    </div>
+                    
+                    <div class="process__step">
+                        <div class="process__number">3</div>
+                        <h3 class="process__title">Production</h3>
+                        <p class="process__description">High-quality DTF printing with quality control at every stage of production.</p>
+                    </div>
+                    
+                    <div class="process__step">
+                        <div class="process__number">4</div>
+                        <h3 class="process__title">Delivery</h3>
+                        <p class="process__description">Careful packaging and timely delivery to your specified location.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials reveal" aria-labelledby="testimonials-title">
+            <div class="container">
+                <h2 id="testimonials-title" class="section-title">What Our Clients Say</h2>
+                <div class="testimonials__grid">
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text">
+                                "PrintCraft Tees delivered exceptional quality for our corporate event. The team was professional and the turnaround time was impressive."
+                            </p>
+                            <div class="testimonial-card__author">
+                                <h4 class="testimonial-card__name">Rajesh Kumar</h4>
+                                <p class="testimonial-card__company">TechCorp India</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text">
+                                "Perfect for our startup's promotional campaign. Great pricing and the custom designs exceeded our expectations."
+                            </p>
+                            <div class="testimonial-card__author">
+                                <h4 class="testimonial-card__name">Priya Sharma</h4>
+                                <p class="testimonial-card__company">InnovateStart</p>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="testimonial-card">
+                        <div class="testimonial-card__content">
+                            <p class="testimonial-card__text">
+                                "Outstanding service for our sports team uniforms. The quality is top-notch and the designs are vibrant and durable."
+                            </p>
+                            <div class="testimonial-card__author">
+                                <h4 class="testimonial-card__name">Amit Patel</h4>
+                                <p class="testimonial-card__company">City Sports Club</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bulk-cta reveal" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="bulk-cta__content">
+                    <h2 id="cta-title" class="bulk-cta__title">Ready to Start Your Project?</h2>
+                    <p class="bulk-cta__description">Get in touch today for a free consultation and quote. Let's bring your vision to life.</p>
+                    <div class="bulk-cta__actions">
+                        <a href="contact.html" class="btn btn--primary">Contact Us</a>
+                        <a href="collections.html" class="btn btn--secondary">View Collections</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">PrintCraft Tees</h3>
+                    <p class="footer__description">Print That Speaks. Wear What You Love.</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="bulk-custom.html">Bulk Orders</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Categories</h4>
+                    <ul class="footer__links">
+                        <li><a href="tees.html">Tees</a></li>
+                        <li><a href="hoodies.html">Hoodies</a></li>
+                        <li><a href="sweatshirts.html">Sweatshirts</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <p>Email: info@printcrafttees.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 PrintCraft Tees. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+</body>
+</html>

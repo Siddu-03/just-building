@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tees - PrintCraft Tees</title>
+    <meta name="description" content="Custom printed men's t-shirts with premium DTF technology. Classic and trendy designs for every occasion.">
+    
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/tees.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <!-- Logo -->
+                <a href="index.html" class="nav__logo" aria-label="PrintCraft Tees Home">
+                    <h1 class="nav__logo-text">PrintCraft Tees</h1>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="index.html" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item nav__item--has-mega" role="none">
+                        <button class="nav__link nav__link--dropdown nav__link--active" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                            Collections
+                            <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <!-- Mega Menu -->
+                        <div class="nav__mega-menu" role="menu" aria-label="Collections submenu">
+                            <div class="nav__mega-content">
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Men's Collection</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="tees.html" class="nav__mega-link">Tees</a></li>
+                                        <li><a href="hoodies.html" class="nav__mega-link">Hoodies</a></li>
+                                        <li><a href="sweatshirts.html" class="nav__mega-link">Sweatshirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Accessories</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="accessories.html" class="nav__mega-link">Caps</a></li>
+                                        <li><a href="accessories.html" class="nav__mega-link">Tote Bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="bulk-custom.html" class="nav__link" role="menuitem">Bulk & Custom</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="about.html" class="nav__link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="contact.html" class="nav__link" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav__toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <!-- Breadcrumb Navigation -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <div class="container">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a href="index.html" class="breadcrumb__link">Home</a>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <a href="collections.html" class="breadcrumb__link">Collections</a>
+                    </li>
+                    <li class="breadcrumb__item breadcrumb__item--current" aria-current="page">
+                        Tees
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Page Header -->
+        <section class="page-header reveal" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="page-header__title">Tees</h1>
+                <p class="page-header__subtitle">Classic and trendy t-shirts with custom prints. Premium cotton with vibrant DTF technology.</p>
+            </div>
+        </section>
+
+        <!-- Products Grid Section -->
+        <section class="products reveal" aria-labelledby="products-title">
+            <div class="container">
+                <h2 id="products-title" class="section-title">All Tees</h2>
+                <div class="products__grid">
+                    <!-- Product cards - Replace with actual product images -->
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Classic+Cotton+Tee" 
+                                 alt="Classic cotton t-shirt with custom print" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Classic Cotton Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Classic Cotton Tee</h3>
+                            <p class="product-card__description">Premium 100% cotton t-shirt with vibrant DTF printing. Perfect for everyday wear.</p>
+                            <div class="product-card__price">₹599</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Vintage+Tee" 
+                                 alt="Vintage style t-shirt with retro design" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Vintage Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Vintage Tee</h3>
+                            <p class="product-card__description">Retro-inspired t-shirt with distressed print effect. Soft cotton fabric with relaxed fit.</p>
+                            <div class="product-card__price">₹649</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Graphic+Tee" 
+                                 alt="Graphic t-shirt with bold artwork" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Graphic Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Graphic Tee</h3>
+                            <p class="product-card__description">Bold graphic designs with high-quality printing. Statement pieces for your wardrobe.</p>
+                            <div class="product-card__price">₹699</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Premium+Tee" 
+                                 alt="Premium t-shirt with luxury finish" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Premium Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Premium Tee</h3>
+                            <p class="product-card__description">Luxury cotton blend with premium DTF printing. Features ribbed collar for durability.</p>
+                            <div class="product-card__price">₹749</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Sport+Tee" 
+                                 alt="Sport t-shirt with athletic design" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Sport Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Sport Tee</h3>
+                            <p class="product-card__description">Athletic t-shirt with moisture-wicking fabric. Perfect for sports and active lifestyle.</p>
+                            <div class="product-card__price">₹549</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                    
+                    <article class="product-card">
+                        <div class="product-card__image">
+                            <img src="https://via.placeholder.com/600x800?text=Product+Artistic+Tee" 
+                                 alt="Artistic t-shirt with creative design" 
+                                 loading="lazy" 
+                                 class="product-card__img">
+                            <button class="product-card__add-to-cart" aria-label="Add Artistic Tee to cart">
+                                Add to Cart
+                            </button>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Artistic Tee</h3>
+                            <p class="product-card__description">Creative designs with artistic flair. Unique prints that express your personality.</p>
+                            <div class="product-card__price">₹679</div>
+                            <button class="btn btn--small product-card__btn">View Details</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="tees-cta reveal" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="tees-cta__content">
+                    <h2 id="cta-title" class="tees-cta__title">Need Custom Tees?</h2>
+                    <p class="tees-cta__description">Perfect for events, teams, and businesses. Get wholesale pricing on custom designs.</p>
+                    <a href="bulk-custom.html" class="btn btn--primary">Get Custom Quote</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">PrintCraft Tees</h3>
+                    <p class="footer__description">Print That Speaks. Wear What You Love.</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="bulk-custom.html">Bulk Orders</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Categories</h4>
+                    <ul class="footer__links">
+                        <li><a href="tees.html">Tees</a></li>
+                        <li><a href="hoodies.html">Hoodies</a></li>
+                        <li><a href="sweatshirts.html">Sweatshirts</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <p>Email: info@printcrafttees.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 PrintCraft Tees. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PrintCraft Tees</title>
+    <meta name="description" content="Get in touch with PrintCraft Tees for custom orders, bulk quotes, and customer support.">
+    
+    <!-- Google Fonts - Inter for modern, clean typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="header">
+        <nav class="nav" role="navigation" aria-label="Main navigation">
+            <div class="nav__container">
+                <!-- Logo -->
+                <a href="index.html" class="nav__logo" aria-label="PrintCraft Tees Home">
+                    <h1 class="nav__logo-text">PrintCraft Tees</h1>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav__menu" role="menubar">
+                    <li class="nav__item" role="none">
+                        <a href="index.html" class="nav__link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav__item nav__item--has-mega" role="none">
+                        <button class="nav__link nav__link--dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false">
+                            Collections
+                            <svg class="nav__dropdown-icon" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                                <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <!-- Mega Menu -->
+                        <div class="nav__mega-menu" role="menu" aria-label="Collections submenu">
+                            <div class="nav__mega-content">
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Men's Collection</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="tees.html" class="nav__mega-link">Tees</a></li>
+                                        <li><a href="hoodies.html" class="nav__mega-link">Hoodies</a></li>
+                                        <li><a href="sweatshirts.html" class="nav__mega-link">Sweatshirts</a></li>
+                                    </ul>
+                                </div>
+                                <div class="nav__mega-column">
+                                    <h3 class="nav__mega-title">Accessories</h3>
+                                    <ul class="nav__mega-list">
+                                        <li><a href="accessories.html" class="nav__mega-link">Caps</a></li>
+                                        <li><a href="accessories.html" class="nav__mega-link">Tote Bags</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="bulk-custom.html" class="nav__link" role="menuitem">Bulk & Custom</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="about.html" class="nav__link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav__item" role="none">
+                        <a href="contact.html" class="nav__link nav__link--active" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="nav__toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                    <span class="nav__toggle-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main" role="main">
+        <!-- Page Header -->
+        <section class="page-header reveal" aria-labelledby="page-title">
+            <div class="container">
+                <h1 id="page-title" class="page-header__title">Contact Us</h1>
+                <p class="page-header__subtitle">Get in touch for custom orders, bulk quotes, or any questions</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form reveal" aria-labelledby="form-title">
+            <div class="container">
+                <div class="contact-form__content">
+                    <div class="contact-form__info">
+                        <h2 id="form-title" class="contact-form__title">Send us a Message</h2>
+                        <p class="contact-form__description">
+                            Have a question about our products or services? Want to discuss a custom order? 
+                            Fill out the form below and we'll get back to you within 24 hours.
+                        </p>
+                        
+                        <!-- Contact Information -->
+                        <div class="contact-info">
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M22 16.92V19.92C22.0011 20.1985 21.9441 20.4742 21.8325 20.7294C21.7209 20.9846 21.5573 21.2136 21.3521 21.4019C21.1469 21.5902 20.9046 21.7335 20.6407 21.8227C20.3768 21.9119 20.0973 21.9452 19.82 21.92C16.7428 21.5856 13.787 20.5341 11.19 18.85C8.77382 17.3146 6.72533 15.2661 5.18999 12.85C3.49997 10.2412 2.44824 7.27099 2.11999 4.18C2.09471 3.90347 2.12787 3.62476 2.21649 3.36162C2.30512 3.09849 2.44746 2.85685 2.63452 2.65215C2.82158 2.44745 3.04919 2.28435 3.30301 2.17291C3.55683 2.06147 3.83112 2.00421 4.10999 2.005H7.10999C7.59522 1.99522 8.06565 2.16708 8.43373 2.48353C8.8018 2.79999 9.04201 3.23945 9.10999 3.72C9.23662 4.68007 9.47144 5.62273 9.80999 6.53C9.94454 6.88792 9.9736 7.27697 9.89384 7.653C9.81408 8.02903 9.62876 8.37471 9.35999 8.65L8.08999 9.92C9.51367 12.4135 11.5865 14.4863 14.08 15.91L15.35 14.64C15.6253 14.3712 15.9709 14.1859 16.347 14.1061C16.723 14.0264 17.112 14.0554 17.47 14.19C18.3773 14.5286 19.3199 14.7635 20.28 14.89C20.7658 14.9585 21.2094 15.2032 21.5265 15.5775C21.8437 15.9518 22.0122 16.4296 21.9999 16.92H22Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-info__details">
+                                    <h3 class="contact-info__title">Phone</h3>
+                                    <p class="contact-info__text">+91 98765 43210</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" fill="currentColor"/>
+                                        <path d="M22 6L12 13L2 6" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-info__details">
+                                    <h3 class="contact-info__title">Email</h3>
+                                    <p class="contact-info__text">info@printcrafttees.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-info__item">
+                                <div class="contact-info__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9C9.5 7.62 10.62 6.5 12 6.5C13.38 6.5 14.5 7.62 14.5 9C14.5 10.38 13.38 11.5 12 11.5Z" fill="currentColor"/>
+                                    </svg>
+                                </div>
+                                <div class="contact-info__details">
+                                    <h3 class="contact-info__title">Address</h3>
+                                    <p class="contact-info__text">123 Print Street, Design District<br>Mumbai, Maharashtra 400001</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Form -->
+                    <form class="form" id="contactForm" novalidate>
+                        <div class="form__group">
+                            <label for="name" class="form__label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form__input" required>
+                            <div class="form__error" id="nameError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                            <div class="form__error" id="emailError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form__input">
+                            <div class="form__error" id="phoneError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Subject *</label>
+                            <select id="subject" name="subject" class="form__select" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="custom">Custom Order</option>
+                                <option value="bulk">Bulk Order Quote</option>
+                                <option value="support">Customer Support</option>
+                                <option value="partnership">Partnership</option>
+                            </select>
+                            <div class="form__error" id="subjectError"></div>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message *</label>
+                            <textarea id="message" name="message" rows="5" class="form__textarea" required></textarea>
+                            <div class="form__error" id="messageError"></div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary form__submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map reveal" aria-labelledby="map-title">
+            <div class="container">
+                <h2 id="map-title" class="section-title">Find Us</h2>
+                <div class="map__container">
+                    <!-- Map placeholder - Replace with actual Google Maps embed -->
+                    <img src="https://via.placeholder.com/1200x400?text=Map+Placeholder" 
+                         alt="Map showing PrintCraft Tees location" 
+                         loading="lazy" 
+                         class="map__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Hours Section -->
+        <section class="hours reveal" aria-labelledby="hours-title">
+            <div class="container">
+                <h2 id="hours-title" class="section-title">Business Hours</h2>
+                <div class="hours__content">
+                    <div class="hours__grid">
+                        <div class="hours__day">
+                            <span class="hours__day-name">Monday - Friday</span>
+                            <span class="hours__time">9:00 AM - 7:00 PM</span>
+                        </div>
+                        <div class="hours__day">
+                            <span class="hours__day-name">Saturday</span>
+                            <span class="hours__time">10:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hours__day">
+                            <span class="hours__day-name">Sunday</span>
+                            <span class="hours__time">Closed</span>
+                        </div>
+                    </div>
+                    <p class="hours__note">
+                        * For urgent orders outside business hours, please email us and we'll respond as soon as possible.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__title">PrintCraft Tees</h3>
+                    <p class="footer__description">Print That Speaks. Wear What You Love.</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="bulk-custom.html">Bulk Orders</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Categories</h4>
+                    <ul class="footer__links">
+                        <li><a href="tees.html">Tees</a></li>
+                        <li><a href="hoodies.html">Hoodies</a></li>
+                        <li><a href="sweatshirts.html">Sweatshirts</a></li>
+                        <li><a href="accessories.html">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__subtitle">Contact Info</h4>
+                    <p>Email: info@printcrafttees.com</p>
+                    <p>Phone: +91 98765 43210</p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 PrintCraft Tees. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/common.js"></script>
+</body>
+</html>
